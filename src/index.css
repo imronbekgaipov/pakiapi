@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background-color: #ecf5ff;
+}
+
+img {
+  padding-top: 30px;
+}
+
+.image {
+  display: flex;
+  margin-top: 30px;
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.card-wrapper {
+  max-height: 40%;
+  max-width: 400px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 10px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.hp {
+  margin: 0;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  padding: 5px 10px;
+  background: rgb(230, 229, 229);
+  border-radius: 10px;
+}
+
+.type {
+  padding: 5px 15px;
+  background: rgb(223, 223, 0);
+  color: white;
+  border-radius: 30px;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.info_p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: normal;
+  color: #8a8a8a;
+}
+
+.info_p span {
+  font-weight: 700;
+  font-size: 30px;
+  color: black;
+}
+
+button {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 40px;
+  background: black;
+  color: #ffffff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgb(48, 48, 48);
+}
